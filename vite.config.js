@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// IMPORTANT: replace knightquest-ai-frontend with your repo name
+// IMPORTANT: replace KnightQuest-Ai with your repo name
 export default defineConfig({
-  base: '/knightquest-ai-frontend/',
+  base: '/KnightQuest-Ai/',
   plugins: [react()],
 })
